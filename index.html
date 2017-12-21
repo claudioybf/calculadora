@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="utf-8">
+		<!-- Fontes Google -->
+		<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<!-- Minha folha de estilo -->
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<title>Calculadora</title>
+		<script src="jquery-2.2.1.js"></script>
+		<script src="funcoes.js"></script>
+		
+	</head>
+	
+	<body>
+		<div class="container-fluid"  >
+			<h2><strong>Calculadora</strong></h2>
+			<div class="row" id="calc">
+				<div class="col-md-12">
+				<table>
+					<tr>
+						<td colspan="4" rowspan="2"><input class="resultado" disabled="disabled" type="text" id="result"></td>
+					</tr>
+					<tr>
+						
+					</tr>
+					
+					<tr>
+						<td><input type="button" class="btn-calc" name="btn" value="7" id="7"></td>
+						<td><input type="button" class="btn-calc" name="btn" value="8" id="8"></td>
+						<td ><input type="button" class="btn-calc" name="btn" value="9" id="9"></td>
+						<td ><input type="button" class="btn-calc op" name="div" value="/" id="divisao"></td>
+					</tr>
+					
+					<tr>
+						<td><input type="button" class="btn-calc" name="btn" value="4" id="4"></td>
+						<td><input type="button" class="btn-calc" name="btn" value="5" id="5"></td>
+						<td><input type="button" class="btn-calc" name="btn" value="6" id="6"></td>
+						<td><input type="button" class="btn-calc op" name="sub" value="-" id="sub"></td>
+					</tr>
+					
+					<tr>
+						<td><input type="button" class="btn-calc" name="btn" value="1" id="1"></td>
+						<td><input type="button" class="btn-calc" name="btn" value="2" id="2"></td>
+						<td><input type="button" class="btn-calc" name="btn" value="3" id="3"></td>
+						<td><input type="button" class="btn-calc op" name="soma" value="+" id="soma"></td>
+					</tr>
+
+					<tr>
+						<td><input type="button" class="btn-calc op" value="." name="btn" id="ponto"></td>
+						<td><input type="button" class="btn-calc" value="0" name="btn" id="0"></td>
+						<td><input type="button" class="btn-calc clean" name="c" value="C" id="c"></td>
+						<td><input type="button" class="btn-calc op" value = '*' name="mult" id="mult"></td>
+					</tr>
+
+					<tr>
+						<td colspan="2"><input type="button" class="btn-calc clean" value="CE" name="ce" id="ce"></td>
+						<td colspan="2"><input type="button" class="btn-calc op" value="=" name="igual" id="igual"></td>
+					</tr>
+				</table>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
